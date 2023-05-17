@@ -1,52 +1,42 @@
-This is the README for project 0x01-caching carried out by Abuchi John Didigwu
-i<p> 
-<img width="260" height="170" src="https://www.flaticon.com/svg/static/icons/svg/2422/2422567.svg" align="right" >
-</p>
+# 0x03. Caching
+:open_file_folder: Specializations - Web Stack programming ― Back-end  
+:bust_in_silhouette: by Guillaume, CTO at Holberton School  
+:copyright: **[Holberton School](https://www.holbertonschool.com/)**
 
-# :colombia: 0x03. Caching
+## Background Context
+In this project, you learn different caching algorithms.
 
-- What a caching system is
-- What FIFO means
-- What LIFO means
-- What LRU means
-- What MRU means
-- What LFU means
-- What the purpose of a caching system
-- What limits a caching system have
+## Resources
+### Read or watch:
+* [Cache replacement policies - FIFO](https://en.wikipedia.org/wiki/Cache_replacement_policies#First_In_First_Out_%28FIFO%29)
+* [Cache replacement policies - LIFO](https://en.wikipedia.org/wiki/Cache_replacement_policies#Last_In_First_Out_%28LIFO%29)
+* [Cache replacement policies - LRU](https://en.wikipedia.org/wiki/Cache_replacement_policies#Least_Recently_Used_%28LRU%29)
+* [Cache replacement policies - MRU](https://en.wikipedia.org/wiki/Cache_replacement_policies#Most_Recently_Used_%28MRU%29)
+* [Cache replacement policies - LFU](https://en.wikipedia.org/wiki/Cache_replacement_policies#Least-Frequently_Used_%28LFU%29)
 
-## Prerequisites
+## Learning Objectives
+At the end of this project, you are expected to be able to [explain to anyone](https://fs.blog/2012/04/feynman-technique/), without the help of Google:
+### General
+* What a caching system is
+* What FIFO means
+* What LIFO means
+* What LRU means
+* What MRU means
+* What LFU means
+* What the purpose of a caching system
+* What limits a caching system have
 
-- Allowed editors: `vi, vim, emacs`
-- All your files will be interpreted/compiled on Ubuntu 18.04 LTS using python3 (version 3.7)
-- All your files should end with a new line
-- The first line of all your files should be exactly `#!/usr/bin/env python3`
-- A README.md file, at the root of the folder of the project, is mandatory
-- Your code should use the pycodestyle style (version 2.5.x)
-- The length of your files will be tested using wc
-- All your modules should have a documentation `(python3 -c 'print(__import__("my_module").__doc__)')`
-- All your functions should have a documentation `(python3 -c 'print(__import__("my_module").my_function.__doc__)`'
-- All your functions and coroutines must be type-annotated.
+## Requirements
+* A ```README.md``` file.
 
-## Contributing
+## Tasks
+* [x] 0. Basic dictionary
+* [x] 1. FIFO caching
+* [x] 2. LIFO Caching
+* [x] 3. LRU Caching
+* [x] 4. MRU Caching
+* [x] 5. LFU Caching
 
--- Santiago Yanguas - Holberton Student
-
-## Versioning
-
-For my learning of backend web dev in Holberton School
-
-## Authors
-
----Santiago Yanguas 946@holbertonshcool.com
-
-## Files
-
-| Files                             | Description      |
-| --------------------------------- | ---------------- |
-| **base_caching.py**               | Initial class    |
-| **0-main.py, 0-basic_cache.py**   | Basic dictionary |
-| **1-main.py, 1-fifo_cache.py**    | FIFO caching     |
-| **2-main.py, 2-lifo_cache.py**    | LIFO Caching     |
-| **3-main.py, 3-lru_cache.py**     | LRU Caching      |
-| **4-main.py, 4-mru_cache.py**     | MRU Caching      |
-| **100-main.py, 100-lfu_cache.py** | LFU Caching      |
+## Software engineer
+Javier Andrés Garzón Patarroyo  
+:octocat: [GitHub](https://github.com/javierandresgp/)
